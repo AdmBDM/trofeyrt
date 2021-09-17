@@ -39,7 +39,17 @@ return [
 		'urlManager' => [
 			'enablePrettyUrl' => true,
 			'showScriptName' => false,
+			'enableStrictParsing' => false,
 			'rules' => [
+//				[
+//					'class' => 'frontend\components\UrlCatch',
+//					// ...configure other properties...
+//				],
+//				'login' => 'site/login',
+				'' => 'site/index',
+				'<controller:\w+>/<action:[\-\w]+>/<id:\d+>'=>'<controller>/<action>',
+				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+//                '<controller:\w+>/<action:\w+>?<other:\.+>'=>'<controller>/<action>?<other>'
 			],
 		],
 	],
