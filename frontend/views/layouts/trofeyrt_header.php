@@ -1,19 +1,35 @@
 <header>
-	<div class="container contacts-bg">
-		<div class="content-container contacts">
-			<div class="contacts__logo">
-				<img src="/images/logohead.png" alt="" class="logo">
-			</div>
+	<div class="content">
+		<div class="contacts">
 			<div class="contacts-left">
-				<a href="post:trofeyrt@gmail.com" class="contacts__post white text-bold text18">trofeyrt@gmail.com</a>
+				<a href="mailto:trofeyrt@gmail.com">trofeyrt@gmail.com</a>
 			</div>
 			<div class="contacts-right">
-				<a class="contacts__phone white text-bold text18" href="tel:+7 (960) 045 24 93">+7 (960) 045 24 93</a>
-				<button id="my-btn" name="call-me" class="button contacts__button  my-btn white text-bold text18"
-						type="button">
+				<a href="tel:+7 (960) 045 24 93">+7 (960) 045 24 93</a>
+				<button id="my-btn" name="call-me" class="button" type="button">
 					Обратная связь
 				</button>
 			</div>
 		</div>
+
+		<div class="header__logo">
+			<img src="/images/logohead.png" alt="" class="logo col-2">
+		</div>
 	</div>
 </header>
+
+<nav>
+	<div class="content">
+		<div class="menu">
+			<div class="menu menu-1">
+				<a class="menu_item" href="index">О КЛУБЕ</a>
+				<a class="menu_item" href="ohota-v-tatarstane.html">ОХОТА В ТАТАРСТАНЕ</a>
+			</div>
+			<div class="menu menu-2">
+				<a class="menu_item" href="poleznaya-informaciya.html">ПОЛЕЗНАЯ ИНФОРМАЦИЯ</a>
+				<a class="menu_item" href="novosti.html">НОВОСТИ</a>
+			</div>
+		</div>
+	</div>
+</nav>
+

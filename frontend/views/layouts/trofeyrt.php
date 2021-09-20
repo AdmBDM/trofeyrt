@@ -24,7 +24,7 @@ $this->title = 'Охотничий клуб «Трофей»';
 	<?php $this->registerCsrfMetaTags() ?>
 	<title><?= Html::encode($this->title) ?></title>
 	<?php $this->head() ?>
-	<link rel="stylesheet" href="/css/style.css">
+<!--	<link rel="stylesheet" href="/css/style.css">-->
 </head>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
@@ -34,14 +34,11 @@ $this->title = 'Охотничий клуб «Трофей»';
 
 <main role="main" class="flex-shrink-0">
 	<div class="container">
-		<h3>Новый шаблон сайта</h3>
-	</div>
-	<div class="container">
-		<?= Breadcrumbs::widget([
-//			'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-			'links' => $this->params['breadcrumbs'] ?? [],
-		]) ?>
-		<?= Alert::widget() ?>
+<!--		--><?//= Breadcrumbs::widget([
+////			'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+//			'links' => $this->params['breadcrumbs'] ?? [],
+//		]) ?>
+<!--		--><?//= Alert::widget() ?>
 		<?= $content ?>
 	</div>
 </main>

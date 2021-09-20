@@ -1,0 +1,73 @@
+header
+	width: 100%
+	min-height: $height_header
+	background-color: $color_header
+
+
+header > .content
+	.contacts
+		position: relative
+		display: flex
+		flex-direction: row
+		flex-wrap: nowrap
+		justify-content: space-between
+		align-items: center
+		padding: 10px 0
+
+
+		a, button
+			font-size: 1.125em
+			font-weight: bold
+			color: $color_white
+
+
+		button
+			display: inline-block
+			border: none
+			background: none
+			margin-left: 10px
+
+
+		a:hover, button:hover
+			text-decoration: underline
+
+
+	.header__logo
+		padding: 0
+		text-align: center
+
+
+		img
+			background-color: $color_white
+			position: absolute
+			top: 0
+			transform: translateX(-50%)
+			border-radius: 50%
+			padding: 25px 5px
+
+
+nav
+	width: 100%
+	min-height: $height_header
+	background-color: $color_white
+
+
+	.content
+		.menu
+			display: flex
+			flex-direction: row
+			flex-wrap: nowrap
+			justify-content: space-between
+			align-items: center
+
+			.menu-1
+				justify-content: flex-start
+
+			.menu-2
+				justify-content: flex-end
+
+			.menu_item
+				font-size: 1.125em
+				font-weight: bold
+				color: $color_black
+				padding: 15px 25px

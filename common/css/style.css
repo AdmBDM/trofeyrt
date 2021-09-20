@@ -59,7 +59,7 @@ h4 {
 }
 
 .content-container {
-  margin-right: auto;
+  margin-right: 0;
   margin-left: auto;
   background-repeat: no-repeat;
   position: relative;
@@ -76,93 +76,6 @@ h4 {
   padding: 8px;
   min-width: 150px;
   border: 4px solid #f9bb48;
-}
-
-.contacts-bg {
-  background-color: #f9bb48;
-}
-
-.contacts {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 0;
-}
-
-.contacts-left {
-  justify-content: start;
-}
-
-.contacts-right {
-  justify-content: end;
-}
-
-.contacts__logo {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  background-color: white;
-  border-radius: 50%;
-  padding: 27px 7px;
-  transform: translateX(-50%);
-}
-
-.contacts__post {
-  text-decoration: none;
-}
-
-.contacts__post:hover {
-  text-decoration: underline;
-}
-
-.contacts__phone {
-  text-decoration: none;
-}
-
-.contacts__phone:hover {
-  text-decoration: underline;
-}
-
-.contacts__button {
-  display: inline-block;
-  border: none;
-  background: none;
-  color: white;
-  margin-left: 10px;
-}
-
-.contacts__button:hover {
-  text-decoration: underline;
-}
-
-.menu {
-  padding: 14px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
-
-.menu-1 {
-  justify-content: flex-start;
-}
-
-.menu-btn {
-  border: none;
-}
-
-.menu-btn:hover {
-  border: none;
-  text-decoration: underline;
-}
-
-.menu-2 {
-  justify-content: flex-end;
 }
 
 .title-block {
@@ -360,53 +273,6 @@ h4 {
 .gallery-item__discr {
   font-size: 1.25em;
   color: white;
-}
-
-.footer-bg {
-  background-color: black;
-}
-
-.footer {
-  position: relative;
-}
-
-.footer-title {
-  position: absolute;
-  top: 25%;
-  left: 40%;
-}
-
-.footer-info {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: stretch;
-  padding-top: 3%;
-  padding-bottom: 2%;
-}
-
-.footer-info__contacts {
-  padding-top: 7%;
-}
-
-.footer-info-contacts__img {
-  margin-right: 10px;
-}
-
-.footer-info-contacts__text {
-  font-size: 1.25em;
-  padding-top: 6%;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.footer-info-contacts__text-d {
-  text-decoration: none;
-}
-
-.footer-info-contacts__text-d:hover {
-  text-decoration: underline;
 }
 
 .rules-block {
