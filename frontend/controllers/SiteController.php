@@ -14,7 +14,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-use yii\web\Controller;
+//use yii\web\Controller;
 use yii\web\Response;
 
 /**
@@ -78,6 +78,36 @@ class SiteController extends TrofeyMainController
 	public function actionIndex(): string
 	{
 		return $this->render('index');
+	}
+
+	/**
+	 * Displays homepage.
+	 *
+	 * @return string
+	 */
+	public function actionHunt(): string
+	{
+		return $this->render('hunt');
+	}
+
+	/**
+	 * Displays homepage.
+	 *
+	 * @return string
+	 */
+	public function actionInfo(): string
+	{
+		return $this->render('info');
+	}
+
+	/**
+	 * Displays homepage.
+	 *
+	 * @return string
+	 */
+	public function actionNews(): string
+	{
+		return $this->render('news');
 	}
 
 	/**

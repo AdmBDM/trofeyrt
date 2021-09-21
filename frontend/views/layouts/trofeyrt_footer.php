@@ -1,5 +1,11 @@
 <?php
+/** @var string $sys_phone */
+/** @var string $sys_mail */
+
 //use yii\bootstrap4\Html;
+
+$sys_phone = Yii::$app->params['sys_phone'];
+$sys_mail = Yii::$app->params['sys_mail'];
 ?>
 
 <footer>
@@ -13,17 +19,15 @@
 			</div>
 			<div class="footer-info__contacts">
 				<img src="/images/icon3.png" alt="">
-				<a class="footer-info-contacts__text footer-info-contacts__text-d white text-bold text18"
-				   href="tel:+7 (960) 045 24 93">+7 (960) 045 24 93</a>
+				<a href="tel: <?= $sys_phone?>"><?= $sys_phone?></a>
 			</div>
 			<div class="footer-info__contacts">
 				<img src="/images/icon4.png" alt="">
-				<span class="footer-info-contacts__text white text-bold">Казань, Вишневского 26</span>
+				<span>Казань, Вишневского 26</span>
 			</div>
 			<div class="footer-info__contacts">
 				<img class="footer-info-contacts__img" src="/images/icon5.png" alt="">
-				<a href="post:trofeyrt@gmail.com"
-				   class="footer-info-contacts__text footer-info-contacts__text-d white text-bold">trofeyrt@gmail.com</a>
+				<a href="mailto: <?= $sys_mail?>"><?= $sys_mail?></a>
 			</div>
 		</div>
 	</div>

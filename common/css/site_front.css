@@ -65,10 +65,132 @@ nav .content .menu .menu_item {
   padding: 15px 25px;
 }
 
+.site-index {
+  width: 100%;
+}
+.site-index .title_img {
+  position: relative;
+  background-image: url("/images/slider1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 500px;
+  margin: 0 auto;
+  z-index: -1;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.site-index .title_img .title__name {
+  padding-top: 15%;
+  font-weight: bold;
+}
+.site-index .title_img .title__discr {
+  padding-top: 5%;
+  padding-bottom: 20%;
+  font-weight: bold;
+}
+.site-index .info-block .info-block-title {
+  text-align: center;
+  padding: 3% 10%;
+}
+.site-index .info-block .info-block-title h2 {
+  font-weight: bold;
+}
+.site-index .info-block .info-block-title span {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+.site-index .info-block span {
+  text-transform: uppercase;
+}
+.site-index .info-block .club-mission {
+  display: flex;
+  border: 2px solid #cfcfcf;
+  min-height: 110px;
+}
+.site-index .info-block .club-mission .club-mission__img {
+  display: block;
+  width: 120px;
+  padding: 5px;
+  background: url("/images/icon1.png") no-repeat center center;
+}
+.site-index .info-block .club-mission .club-mission__discr {
+  display: flex;
+  padding-top: 15px;
+  justify-self: center;
+  align-content: center;
+  font-weight: bold;
+  color: #265026;
+}
+.site-index .info-block .choose-our-club p {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.site-index .info-block .choose-our-club p span {
+  text-transform: uppercase;
+}
+.site-index .info-block .choose-our-club li {
+  list-style: none;
+  background: url("/images/icon2.png") no-repeat 0 -3px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+.site-index .info-block .info-menu {
+  margin: 3% auto;
+  text-align: center;
+}
+.site-index .info-block .info-menu .info-menu__btn1 {
+  color: white;
+  background-color: #f9bb48;
+  width: 30%;
+  font-weight: bold;
+}
+.site-index .info-block .info-menu .info-menu__btn2 {
+  color: #f9bb48;
+  width: 30%;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.site-index .animals {
+  background-color: #265026;
+}
+.site-index .animals .animals-gallery__title {
+  padding-top: 3%;
+  text-align: center;
+  margin: 0 auto 3%;
+}
+.site-index .animals .animals-gallery__title h2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.site-index .animals .animals-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-index .animals .animals-gallery .animals-gallery-item {
+  margin: 0 2% 8%;
+  text-align: center;
+}
+.site-index .animals .animals-gallery .gallery-item__img {
+  margin-bottom: 2%;
+}
+.site-index .animals .animals-gallery .gallery-item__description {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: white;
+}
+
 footer {
   position: relative;
   width: 100%;
-  min-height: 60px;
   background-color: black;
 }
 
@@ -110,10 +232,69 @@ footer > .content .footer-info .footer-info__contacts a, footer > .content .foot
   font-weight: bold;
 }
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .content {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  font-size: 1.125em;
+  text-transform: none;
+  text-decoration: none;
+  padding: 8px;
+  min-width: 100px;
+  border: 4px solid #f9bb48;
+  border-radius: 10px;
+}
+
+.blog {
+  display: flex;
+  border: 2px solid #e0e0e0;
+  margin-bottom: 50px;
+  position: relative;
+}
+.blog .blog__img {
+  width: 45%;
+}
+.blog .blog__img figure {
+  margin: 0;
+}
+.blog .blog__img figure > img {
+  width: 100%;
+}
+.blog .blog_txt {
+  width: 55%;
+  padding-left: 25px;
+}
+.blog .blog_txt h3, .blog .blog_txt h4 {
+  margin: 2% auto 0;
+  text-align: center;
+  font-weight: bold;
+}
+.blog .blog_txt h4 {
+  font-style: italic;
+}
+.blog .blog_txt p {
+  margin-top: 3%;
+  padding-left: 20px;
+  line-height: 1.5;
+}
+.blog .blog_txt .blog_phone {
+  margin-top: 50px;
+}
+.blog .blog_txt .blog_phone span > a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=site_front.css.map */
