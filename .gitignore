@@ -43,3 +43,4 @@ backend/runtime
 #backend/web/index.php
 backend/web/index-test.php
 backend/web/robots.txt
+/images/

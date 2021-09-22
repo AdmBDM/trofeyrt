@@ -1,6 +1,44 @@
 *
 	font-family: Arial, Helvetica, sans-serif
 
+.site-index,
+.site-hunt,
+.site-info,
+.site-news
+	width: 100%
+
+	.title_img
+		position: relative
+		background-repeat: no-repeat
+		background-size: auto 100%
+		margin: 0 auto
+		z-index: -1
+
+	.info-block
+		.info-menu
+			margin: 5% auto
+			text-align: center
+			vertical-align: middle
+
+			.info-menu-block
+				display: flex
+				align-content: center
+				justify-content: space-around
+
+				.info-menu__btn1
+					color: white
+					background-color: $color_button
+					width: 30%
+					font-weight: bold
+
+				.info-menu__btn2
+					color: $color_button
+					width: 30%
+					font-weight: bold
+					margin-left: 4%
+					margin-right: 4%
+
+
 .content
 	max-width: $width_content
 	margin-left: auto
@@ -9,8 +47,8 @@
 
 .button
 	display: inline-block
-	background-color: #ffffff
-	color: rgb(0, 0, 0)
+	background-color: $clr_255
+	color: $clr_0
 	text-align: center
 	font-size: 1.125em
 	text-transform: none
@@ -21,14 +59,38 @@
 	border-radius: 10px
 
 
+.blg
+	display: flex
+	border: 2px solid $clr_207
+	flex-direction: row
+	flex-wrap: nowrap
+
+	&__img
+		display: block
+		width: 30%
+		background-image: url(/images/no-image.png)
+		background-repeat: no-repeat
+		background-position: center
+		background-size: contain
+		margin-left: 1rem
+
+	&__text
+		display: flex
+		margin: 1rem 0 0 1rem
+		align-content: center
+		color: $color_green
+		font-weight: bold
+
+
 .blog
 	display: flex
-	border: 2px solid rgb(224, 224, 224)
+	border: 2px solid $clr_207
 	margin-bottom: 50px
 	position: relative
 
 	.blog__img
 		width: 45%
+		text-align: center
 		figure
 			margin: 0
 		figure > img
@@ -59,3 +121,15 @@
 				text-decoration: none
 				font-weight: bold
 
+
+	.blog-article
+		display: inline-block
+		width: 50%
+		margin-left: 30px
+		margin-top: 20px
+		vertical-align: top
+
+		h3
+			margin: 15px auto
+			font-weight: bold
+			text-transform: uppercase

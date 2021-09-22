@@ -1,14 +1,7 @@
 .site-index
-	width: 100%
 
 	.title_img
-		position: relative
-		background-image: url("/images/slider1.jpg")
-		background-repeat: no-repeat
-		background-size: 100% auto
-		min-height: 500px
-		margin: 0 auto
-		z-index: -1
+		background-image: url(/images/slider1.jpg)
 
 		text-align: center
 		color: $color_white
@@ -25,6 +18,10 @@
 			font-weight: bold
 
 
+	.blg__img
+		background-image: url(/images/icon1.png)
+		width: 7%
+
 	.info-block
 		.info-block-title
 			text-align: center
@@ -40,26 +37,6 @@
 		span
 			text-transform: uppercase
 
-		.club-mission
-			display: flex
-			border: 2px solid rgb(207, 207, 207)
-			min-height: 110px
-
-			.club-mission__img
-				display: block
-				width: 120px
-				padding: 5px
-				background: url("/images/icon1.png") no-repeat center center
-
-			.club-mission__discr
-				display: flex
-				padding-top: 15px
-				justify-self: center
-				align-content: center
-
-				font-weight: bold
-				color: #265026
-
 
 		.choose-our-club
 			p
@@ -71,30 +48,10 @@
 
 			li
 				list-style: none
-				background: url("/images/icon2.png") no-repeat 0 -3px
+				background: url(/images/icon2.png) no-repeat 0 -3px
 				padding-left: 40px
 				padding-bottom: 30px
 
-
-		.info-menu
-			margin: 3% auto
-			text-align: center
-
-
-			.info-menu__btn1
-				color: white
-				background-color: $color_button
-				width: 30%
-				font-weight: bold
-				//margin-right: 4%
-
-
-			.info-menu__btn2
-				color: $color_button
-				width: 30%
-				font-weight: bold
-				margin-left: 4%
-				margin-right: 4%
 
 	.animals
 		background-color: $color_animals
